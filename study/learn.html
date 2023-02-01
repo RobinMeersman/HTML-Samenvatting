@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Leer</title>
+</head>
+<body>
+    <nav class="sticky">
+        <div id="title">
+            <h1><a href="../index.html">HTML-samenvatting</a></h1>
+        </div>
+        <div id="nav-bar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li>Leer</li>
+                <li>Tips</li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="lesson" id="basics">
+        <h2 class="t1">1. Basics</h2>
+        <p class="info">
+            De basis elementen van HTML die je overal vind.
+        </p>
+        <div class="class">
+            <h4 class="t2">1.1: Tekst</h4>
+            <p>
+                Tekst kan op verschillende manieren:
+            </p>
+
+            <ul class="listing">
+                <li>
+                    Met een p-tag: &lt;p&gt;
+                </li>
+                <li>
+                    Met een h-tag: &lt;hX&gt;
+                </li>
+            </ul>
+            <p>
+                Interessant: een h-tag (heading) kan van 1 (grootste) tot 6 (kleinste). <br>
+                Hierbij is <q>X</q> respectievelijk het getal in [1-6].
+            </p>
+        </div>
+        <div class="class">
+            <h4 class="t2">1.2: Containers</h4>
+            <p>
+                De meest voorkomende container is de &lt;div&gt;-tag. <br>
+                Dit is niks meer dan een doodgewone container waar je van alles in kan doen. <br>
+                De meest gebruikte toepassing van een &lt;div&gt; is om elementen te groeperen.
+            </p>
+        </div>
+        <div class="class">
+            <h4 class="t2">Links</h4>
+            <p>
+                Om te linken naar een ander HTML-bestand, of een andere website, gebruiken we het &lt;a&gt;-tag. <br>
+                Hierbij vullen we het <i>href</i>-attribuut in met:
+            </p>
+            <ul class="listing">
+                <li>het pad naar het te linken HTML-bestand</li>
+                <li>of de link naar de desbetreffende website</li>
+            </ul>
+            <p>
+                Een &lt;a&gt;-tag ziet er dan als volgt uit:
+            </p>
+            <p class="code">
+                &lt;a href=&quot;<i>pad of link</i>&quot;&gt;<i>text om link weer te geven</i>&lt;/a&gt;
+            </p>
+        </div>
+
+        <div class="class">
+            <h4 class="t2">Lijsten</h4>
+            <p>
+                Er zijn 2 soorten lijsten: de geordende en de ongeordende lijsten. <br>
+                Beide soorten hebben kind elementen om de op te lijsten items weer te geven.
+            </p>
+            <h4 class="smaller">De geordende lijst:</h4>
+            <p>
+                Een geordende lijst heeft als HTML-tag: &lt;ol&gt;. <br>
+                De oplijsting is standaard een getal beginnend bij 1.
+            </p>
+
+            <h4 class="smaller">De ongeordende lijst</h4>
+            <p>
+                Een ongeordende lijst heeft HTML-tag: &lt;ul&gt;. <br>
+                De oplijsting is standaard een bolletje.
+            </p>
+            <br>
+            <p>
+                Kinderen toevoegen aan lijsten gebeurd door de &lt;li&gt;-tag binnenin de lijst-tag te zetten. <br>
+                Op het aantal kinderen staat geen limiet op, je kan zoveel items aan de lijst toevoegen als je wil.
+            </p>
+        </div>
+    </section>
+
+    <section class="lesson" id="box_model">
+        <h2 class="t1">2. Box model</h2>
+        <p class="info">
+            Hoe elementen worden voorgesteld, het verschil tussen padding en margin, etc
+        </p>
+        <div class="class">
+            <h4 class="t2">2.1 Voorstellen van elementen</h4>
+        </div>
+    </section>
+</body>
+</html>
